@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F5F5F5;
+    color: #3C3C3C;
+}
+
+/* Navigation */
+
+.navbar {
+    padding: 10px;
+}
+
+.brand>img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-nav li {
+    padding-right: 10px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/*---Media Queries --*/
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+
+/* --- Presentation --*/
+
+.presentation {
+    padding: 10px;
+}
+
+.presentation h2 {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    align-items: center;
+    color: #C1839F;
+    transition: color 0.5s;
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+
+.presentation:hover h2 {
+    color: #087E8B;
+    align-items: center;
+}
+
+.btn-secondary {
+    background-color: #087E8B;
+    color: #F5F5F5;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-secondary:hover {
+    background-color: #C1839F;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+}
+
+.presentation p {
+    color: #3C3C3C;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    animation: fadeInRight;
+    animation-duration: 2s;
+}
+
+.presentation img {
+    height: 400px;
+    width: auto;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+
+/* Connect */
+
+h2 {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    align-items: center;
+    color: #C1839F;
+    transition: color 0.5s;
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+
+h2:hover {
+    color: #087E8B;
+    align-items: center;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #517fa4;
+}
+
+.fa-github {
+    color: #3C3C3C;
+}
+
+.fa-linkedin {
+    color: #3b5998;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-github:hover, .fa-linkedin:hover {
+    color: #d5d5d5;
+}
+
+hr {
+    border-top: 1px solid #087E8B;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/* to remember
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
