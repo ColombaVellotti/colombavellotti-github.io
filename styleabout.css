@@ -25,15 +25,6 @@ html, body {
     font-size: 1.1em !important;
 }
 
-/*---Media Queries --*/
-
-@media (max-width: 992px) {
-    .social a {
-        font-size: 4em;
-        padding: 2rem;
-    }
-}
-
 /* --- Presentation --*/
 
 .presentation {
@@ -142,6 +133,7 @@ hr {
 [class*="col-"] {
     padding: 1rem;
 }
+
 
 /* to remember
 Extra small (xs) devices (portrait phones, less than 576px)

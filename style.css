@@ -201,8 +201,6 @@ input[type=submit] {
     width: 90px;
     border: none;
     border-radius: 4px;
-    animation: fadeInUpBig;
-    animation-duration: 4s;
 }
 
 input[type=submit]:hover {
