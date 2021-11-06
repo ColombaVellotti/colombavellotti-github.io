@@ -133,17 +133,6 @@ h2:hover {
     font-family: 'Segoe UI', sans-serif;
 }
 
-.img-darken {
-    transition: 1s;
-    filter: brightness(10%);
-}
-
-.hr {
-    border-top: 2px solid #C1839F;
-    width: 95%;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
-}
 
 /* How can i do it */
 
