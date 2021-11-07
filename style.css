@@ -6,6 +6,10 @@ html, body {
     color: #3C3C3C;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation */
 
 .navbar {
@@ -132,7 +136,6 @@ h2:hover {
     font-weight: 600;
     font-family: 'Segoe UI', sans-serif;
 }
-
 
 /* How can i do it */
 

@@ -6,6 +6,10 @@ html, body {
     color: #3C3C3C;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Navigation */
 
 .navbar {
@@ -133,7 +137,6 @@ hr {
 [class*="col-"] {
     padding: 1rem;
 }
-
 
 /* to remember
 Extra small (xs) devices (portrait phones, less than 576px)
